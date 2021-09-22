@@ -1,0 +1,46 @@
+li {
+  list-style-type: none;
+  display: inline;
+  margin: 1px;
+  border: solid 1px;
+  
+}
+
+.healthy {
+  padding: 10px;
+  background-color: green;
+}
+
+.infected {
+  padding: 10px;
+  background-color: red;
+}
+
+.sea {
+  padding: 10px;
+  background-color: blue;
+}
+
+#field {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#field0 {
+  height: 40px;
+}
+
+#field1 {
+  height: 40px;
+}
+
+#mapNameElement1 {
+  padding-bottom: 5px; 
+  padding-top: 30px; 
+}
+
+
+#statistic {
+  margin: 100px auto;
+}
